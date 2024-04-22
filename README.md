@@ -7,8 +7,8 @@ Embora seja amplamente reconhecida a importância de uma alimentação saudável
 * Pedro Bernardes Viana
 * Mateus Gonçalves de Souza
 * Matheus Augusto Santana Martins
-* Theodoro
-* Josué 
+* Theodoro Augusto de Brito Spadinger Motter
+* Josué Pereira dos Santos
 
 ## Professores responsáveis
 
