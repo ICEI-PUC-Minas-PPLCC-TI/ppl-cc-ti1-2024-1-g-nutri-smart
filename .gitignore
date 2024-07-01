@@ -2,3 +2,13 @@ desktop.ini
 Icon?
 .DS_Store
 .vscode
+
+codigo/node_modules
+codigo/__pycache__
+codigo/.cache
+codigo/.local
+codigo/.pythonlibs
+codigo/.upm
+codigo/node_modules
+codigo/.replit
+codigo/poetry.lock
