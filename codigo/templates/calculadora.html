@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+    <meta charset=" UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="/">
+                <img src="static/assets/images/Logo.png" alt="Logo" class="logo">
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <title>Calculadora de IMC</title>
+        <link rel="stylesheet" href="static/caculadora.css" >
+        <link rel="stylesheet" href="caculadora.css">
+</head>
+
+<body>
+    <div class=" container">
+        <h1>Calculadora de IMC</h1>
+        <form id="imcForm">
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo" required>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+
+            <label for="altura">Altura (cm):</label>
+            <input type="number" id="altura" name="altura" step="1" required>
+
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" name="peso" step="0.1" required>
+
+            <button type="submit">Calcular IMC</button>
+        </form>
+        <div id="resultado"></div>
+
+
+        <table id="tabelaIMC" class="tabela-imc">
+            <caption>Classificação do IMC</caption>
+            <thead>
+                <tr>
+                    <th>IMC</th>
+                    <th>Classificação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt; 18.5</td>
+                    <td>Abaixo do peso</td>
+                </tr>
+                <tr>
+                    <td>18.5 - 24.9</td>
+                    <td>Peso normal</td>
+                </tr>
+                <tr>
+                    <td>25 - 29.9</td>
+                    <td>Sobrepeso</td>
+                </tr>
+                <tr>
+                    <td>&gt;= 30</td>
+                    <td>Obesidade</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        </div>
+        <script src="static/calculadora.js"></script>
+
+</body>
+
+</html>

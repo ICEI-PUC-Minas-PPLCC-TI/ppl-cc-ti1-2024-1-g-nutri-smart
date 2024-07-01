@@ -1,0 +1,465 @@
+/* Fonte Roboto Flex (Filtro) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+/* Body */
+body {
+
+  background-color:rgba(255,255,255,1);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#ba{
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  background-image: url("PlaceHoder.jpg");
+  z-index: -2;
+}
+
+#cens{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(255,255,255,0.98);
+  z-index: -1;
+}
+
+h4 {
+  color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+h4::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #f57c00;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #07CD1B;
+  overflow: hidden;
+  text-align: right;
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 13px;
+  background-color: transparent;
+  border-left: 2px black dashed;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 3px black solid;
+  background-color: #07CD1B;
+}
+
+
+/* Filtro */
+#filtro {
+  display: flex;
+  margin-left: 120px;
+  margin-top: 25px;
+  flex-direction: row;
+  gap: 15px;
+}
+
+#filtro a {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #D9D9D9;
+  color: #767373;
+  width: 104px;
+  height: 24px;
+  border-radius: 8px;
+  transition:
+    background-color 0.35s,
+    font-size 0.35s,
+    transform 0.35s ease-in-out;
+}
+
+#filtro a:hover {
+  transform: scale(1.10);
+  font-size: 12px;
+  background-color: #ababab;
+  color: #ffffff;
+}
+
+/* Cards (Filtro) */
+
+.card {
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.carousel-item img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.recipe-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.recipe-card img {
+  transition: transform 0.01s;
+}
+
+.recipe-card:hover img {
+  transform: scale(1.1);
+}
+
+.recipe-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(29, 29, 29, 0.658);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.recipe-card:hover .recipe-name {
+  opacity: 1;
+}
+
+.carousel-control-next-icon {
+  background-color: #f57c00;
+}
+
+
+.inicio {
+  margin-right: 50px;
+  margin-left: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  padding-right: 300px;
+
+}
+
+
+/* Barra de Procura*/
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 120px;
+}
+
+.search-bar input {
+  width: 500px;
+  height: 40px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-bar .search-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  background-color: #07CD1B;
+}
+
+footer p {
+  font-weight: 600;
+}
+
+footer div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div a {
+  decoration: none;
+  color: white;
+}
+
+/* Receitas */
+.Receita-nome {
+  position: relative;
+  width: 100%;
+  font-size: 1.3em;
+  font-family: "Roboto Flex", sans-serif;
+
+  align-items: center;
+  text-align: center;
+
+  color: #000;
+  text-shadow:
+    -1px -1px 0 #f57c00,
+    1px -1px 0 #f57c00,
+    -1px 1px 0 #f57c00,
+    1px 1px 0 #f57c00;
+}
+
+
+/* Cabesario2? 
+#Cabesario2 {
+  position: relative;
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #07CD1B;
+}
+*/
+
+.lkc {
+  font-size: 0.5em;
+  position: relative;
+  color: black;
+  margin-left: 5%;
+  text-align: center;
+}
+
+
+.profile-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profile-modal-content {
+  position: relative;
+  background-color: #ffffff;
+  margin: 1% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  min-width: 300px;
+  height: 110%;
+  min-height: 400px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 999;
+}
+
+#fotop {
+  height: 100%;
+  max-width: 200px;
+  margin-bottom: 1rem;
+}
+
+#main {
+  position: relative;
+  top: 10%;
+  color: #fff;
+  z-index: 0;
+}
+
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1;
+}
+
+span {
+  color: #000000;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header {
+  background-image: linear-gradient(rgb(255, 255, 255), #201b2c);
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.profile {
+  position: relative;
+  top: 100%;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+.opc {
+  position: relative;
+  left: 10%;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.opctxt {
+  position: relative;
+  top: -500%;
+  margin-left: 5%;
+  color: #1F1B2C;
+}
+
+.ico {
+  max-width: 15%;
+}
+
+.profile h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #000000;
+}
+
+.profile p {
+  font-size: 1rem;
+  font-family: "Sedan SC", serif;
+  color: #000000;
+}
+
+
+.open-profile-btn {
+
+  padding-left: 30px;
+  position: relative;
+  max-width: 80px;
+  max-height: 70px;
+  background-color: #07CD1B;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+@keyframes dth {
+  0% {}
+
+  25% {}
+
+  50% {}
+  75% {}
+
+  100% {}
+}
+
+.open-profile-btn img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 24px;
+  height: 240px;
+}
+
+.icon img {
+  height: 60px;
+  width: 60px;
+  margin-left: 30px;
+}
+
+.icon2 img {
+  height: 44px;
+  width: 48px;
+  margin-left: 13px;
+  display: none;
+}
+
