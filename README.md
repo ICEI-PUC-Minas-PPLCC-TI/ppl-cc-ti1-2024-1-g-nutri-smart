@@ -17,4 +17,5 @@ Embora seja amplamente reconhecida a importância de uma alimentação saudável
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+```bash
+cd codigo && python3 app.py```
