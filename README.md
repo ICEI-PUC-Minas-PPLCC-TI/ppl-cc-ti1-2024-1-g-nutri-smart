@@ -18,4 +18,5 @@ Embora seja amplamente reconhecida a importância de uma alimentação saudável
 ## Instruções de utilização
 
 ```bash
-cd codigo && python3 app.py```
+cd codigo && python3 app.py
+```
