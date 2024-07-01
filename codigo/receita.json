@@ -1,0 +1,568 @@
+[
+  {
+    "id": 1,
+    "nome": "Macarrão a Putanesca",
+    "categoria": "Carnes",
+    "tempodeprep": "30min",
+    "imagem": "assets/receitas/1.jpg",
+    "descricao": "Gosta de pimenta e anchova? Este clássico italiano, de molho intenso, ganha versão express: porção individual feita em uma panela só",
+    "ingredientes": [
+      "200g de macarrão",
+      "4 tomates picadosa",
+      "1/2 xícara de azeitonas pretas",
+      "2 colheres de sopa de alcaparras",
+      "6 filés de anchovas",
+      "2 dentes de alho picados",
+      "4 colheres de sopa de azeite de oliva",
+      "1 pimenta vermelha picada",
+      "Sal a gosto",
+      "Pimenta do reino a gosto",
+      "2 colheres de sopa de salsa picada"
+    ],
+    "modoDePreparo": [
+      "Cozinhe o macarrão em água fervente com sal até ficar al dente.",
+      "Enquanto o macarrão cozinha, aqueça o azeite em uma panela grande.",
+      "Adicione o alho picado e refogue por 1 minuto.",
+      "Adicione os tomates picados, as azeitonas pretas, as alcaparras e as anchovas.",
+      "Cozinhe em fogo baixo por 10 minutos, mexendo ocasionalmente.",
+      "Adicione a pimenta vermelha picada e tempere com sal e pimenta do reino a gosto.",
+      "Escorra o macarrão e adicione à panela com o molho.",
+      "Misture bem e cozinhe por mais 2 minutos.",
+      "Sirva quente, decorado com salsa picada."
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Salada de Quinoa com Legumes",
+    "categoria": "Salada",
+    "tempodeprep": "20min",
+    "imagem": "assets/receitas/2.jpg",
+    "descricao": "Uma salada fresca e nutritiva com quinoa, legumes frescos e temperos mediterrâneos.",
+    "ingredientes": [
+      "1 xícara de quinoa",
+      "2 xícaras de água",
+      "1 pepino picado",
+      "1 pimentão vermelho picado",
+      "1 tomate picado",
+      "1/4 xícara de azeite de oliva",
+      "2 colheres de sopa de suco de limão",
+      "Sal a gosto",
+      "Pimenta do reino a gosto",
+      "1/4 xícara de salsinha picada"
+    ],
+    "modoDePreparo": [
+      "Cozinhe a quinoa em água fervente por 15 minutos ou até ficar macia.",
+      "Enquanto a quinoa cozinha, prepare os legumes picando o pepino, o pimentão e o tomate.",
+      "Em uma tigela grande, misture a quinoa cozida, os legumes picados, o azeite de oliva, o suco de limão, o sal e a pimenta do reino a gosto.",
+      "Adicione a salsinha picada e misture bem.",
+      "Sirva a salada fria ou em temperatura ambiente."
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Sopa de Lentilha com Espinafre",
+    "categoria": "Salada",
+    "tempodeprep": "60min",
+    "imagem": "assets/receitas/3.jpg",
+    "descricao": "Uma sopa reconfortante e cheia de proteínas, perfeita para os dias mais frios.",
+    "ingredientes": [
+      "1 xícara de lentilhas",
+      "4 xícaras de caldo de legumes",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "2 cenouras picadas",
+      "2 talos de aipo picados",
+      "2 colheres de sopa de azeite de oliva",
+      "1 folha de louro",
+      "200g de espinafre",
+      "Sal a gosto",
+      "Pimenta do reino a gosto"
+    ],
+    "modoDePreparo": [
+      "Em uma panela grande, aqueça o azeite de oliva em fogo médio.",
+      "Adicione a cebola picada e refogue por 5 minutos ou até ficar macia.",
+      "Adicione o alho picado, a cenoura picada, o aipo picado e a folha de louro.",
+      "Refogue por mais 5 minutos, mexendo ocasionalmente.",
+      "Adicione as lentilhas e o caldo de legumes.",
+      "Aumente o fogo e deixe ferver.",
+      "Reduza o fogo para baixo, tampe a panela e cozinhe por 30 minutos ou até as lentilhas ficarem macias.",
+      "Adicione o espinafre e cozinhe por mais 5 minutos ou até murchar.",
+      "Retire a folha de louro da panela.",
+      "Tempere com sal e pimenta do reino a gosto.",
+      "Sirva quente."
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Smoothie Verde Detox",
+    "categoria": "Bebida",
+    "tempodeprep": "15min",
+    "imagem": "assets/receitas/4.jpg",
+    "descricao": "Um smoothie cheio de nutrientes com espinafre, maçã, gengibre e limão para um detox saudável.",
+    "ingredientes": [
+      "1 xícara de espinafre",
+      "1 maçã verde picada",
+      "1 pedaço de gengibre (2 cm)",
+      "Suco de 1 limão",
+      "1 xícara de água",
+      "1 colher de sopa de mel (opcional)"
+    ],
+    "modoDePreparo": [
+      "Lave bem o espinafre, a maçã e o gengibre.",
+      "No liquidificador, coloque o espinafre, a maçã, o gengibre, o suco de limão e a água.",
+      "Bata tudo até obter um creme homogêneo.",
+      "Adicione mel a gosto, se desejar.",
+      "Sirva o smoothie gelado."
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Frango Grelhado com Aspargos",
+    "categoria": "Carnes",
+    "tempodeprep": "50min",
+    "imagem": "assets/receitas/5.jpg",
+    "descricao": "Frango suculento grelhado acompanhado de aspargos frescos e temperados.",
+    "ingredientes": [
+      "2 peitos de frango",
+      "1 maço de aspargos",
+      "2 colheres de sopa de azeite de oliva",
+      "1 dente de alho picado",
+      "Sal a gosto",
+      "Pimenta do reino a gosto",
+      "1 colher de chá de suco de limão"
+    ],
+    "modoDePreparo": [
+      "Tempere os peitos de frango com sal, pimenta do reino e suco de limão.",
+      "Aqueça uma frigideira grande em fogo médio.",
+      "Adicione 1 colher de sopa de azeite de oliva e grelhe os peitos de frango por 5 minutos de cada lado ou até ficarem dourados e cozidos por dentro.",
+      "Retire os peitos de frango da frigideira e reserve.",
+      "Limpe os aspargos, removendo as pontas duras.",
+      "Aqueça o restante do azeite de oliva na mesma frigideira.",
+      "Adicione o alho picado e refogue por 1 minuto.",
+      "Adicione os aspargos e cozinhe por 5 minutos ou até ficarem macios.",
+      "Sirva os peitos de frango grelhados com os aspargos.",
+      "Opcional: adicione uma pitada de sal e pimenta do reino aos aspargos antes de servir."
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Panquecas de Banana e Aveia",
+    "categoria": "Massa",
+    "tempodeprep": "30min",
+    "imagem": "assets/receitas/6.jpg",
+    "descricao": "Panquecas saudáveis e deliciosas feitas com banana, aveia e canela.",
+    "ingredientes": [
+      "1 banana madura",
+      "1 xícara de aveia em flocos",
+      "1/2 xícara de leite",
+      "1 ovo",
+      "1 colher de chá de fermento em pó",
+      "1 colher de chá de canela em pó",
+      "1 colher de sopa de mel (opcional)"
+    ],
+    "modoDePreparo": [
+      "Amasse a banana madura em um prato.",
+      "Adicione a aveia em flocos, o leite, o ovo, o fermento em pó, a canela em pó e o mel (opcional).",
+      "Misture bem até obter uma massa homogênea.",
+      "Aqueça uma frigideira antiaderente em fogo médio.",
+      "Unte levemente a frigideira com um pouco de manteiga ou óleo de coco.",
+      "Despeje 1/4 xícara de massa na frigideira para cada panqueca.",
+      "Cozinhe por 2-3 minutos de cada lado ou até dourar.",
+      "Sirva as panquecas quentes com frutas, mel ou xarope de bordo a gosto."
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Hambúrguer de Grão de Bico",
+    "categoria": "Carnes",
+    "tempodeprep": "45min",
+    "imagem": "assets/receitas/7.jpg",
+    "descricao": "Um hambúrguer vegetariano saboroso feito com grão de bico e especiarias.",
+    "ingredientes": [
+      "1 xícara de grão de bico cozido",
+      "1/2 cebola picada",
+      "2 dentes de alho picados",
+      "1/4 xícara de farinha de rosca",
+      "1 colher de chá de cominho",
+      "1 colher de chá de páprica",
+      "1 colher de sopa de salsinha picada",
+      "Sal a gosto",
+      "Pimenta do reino a gosto",
+      "2 colheres de sopa de azeite de oliva"
+    ],
+    "modoDePreparo": [
+      "Em um processador de alimentos, misture o grão de bico cozido, a cebola picada, o alho picado, a farinha de rosca, o cominho, a páprica, a salsinha picada, o sal e a pimenta do reino a gosto.",
+      "Processe até obter uma mistura homogênea, mas não muito lisa.",
+      "Com as mãos levemente úmidas, modele a mistura em hambúrgueres.",
+      "Aqueça o azeite de oliva em uma frigideira grande em fogo médio.",
+      "Cozinhe os hambúrgueres por 5-7 minutos de cada lado ou até ficarem dourados e cozidos por dentro.",
+      "Sirva os hambúrgueres em pães, acompanhados de seus acompanhamentos favoritos."
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Wrap de Frango com Abacate",
+    "categoria": "Carnes",
+    "tempodeprep": "25min",
+    "imagem": "assets/receitas/8.jpg",
+    "descricao": "Um wrap leve e saboroso com frango desfiado, abacate e alface.",
+    "ingredientes": [
+      "2 tortillas",
+      "1 peito de frango cozido e desfiado",
+      "1 abacate fatiado",
+      "1/2 xícara de alface picada",
+      "1 tomate picado",
+      "2 colheres de sopa de maionese",
+      "Sal a gosto",
+      "Pimenta do reino a gosto"
+    ],
+    "modoDePreparo": [
+      "Aqueça as tortillas em uma frigideira seca ou no micro-ondas por alguns segundos.",
+      "Espalhe a maionese em cada tortilla.",
+      "Adicione o frango desfiado, o abacate fatiado, a alface picada e o tomate picado.",
+      "Tempere com sal e pimenta do reino a gosto.",
+      "Enrole as tortillas com cuidado para formar os wraps.",
+      "Corte os wraps ao meio e sirva."
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Tabule de Quinoa",
+    "categoria": "Salada",
+    "tempodeprep": "40min",
+    "imagem": "assets/receitas/9.jpg",
+    "descricao": "Uma versão saudável do clássico tabule, usando quinoa no lugar do trigo.",
+    "ingredientes": [
+      "1 xícara de quinoa",
+      "2 xícaras de água",
+      "1 pepino picado",
+      "2 tomates picados",
+      "1/4 xícara de cebola roxa picada",
+      "1/4 xícara de hortelã picada",
+      "1/4 xícara de salsinha picada",
+      "1/4 xícara de azeite de oliva",
+      "Suco de 1 limão",
+      "Sal a gosto",
+      "Pimenta do reino a gosto"
+    ],
+    "modoDePreparo": [
+      "Cozinhe a quinoa em água fervente por 15 minutos ou até ficar macia.",
+      "Enquanto a quinoa cozinha, prepare os legumes picando o pepino, os tomates e a cebola roxa.",
+      "Em uma tigela grande, misture a quinoa cozida, os legumes picados, a hortelã picada, a salsinha picada, o azeite de oliva, o suco de limão, o sal e a pimenta do reino a gosto.",
+      "Misture bem e deixe descansar na geladeira por pelo menos 30 minutos antes de servir."
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Batata Doce Assada com Ervas",
+    "categoria": "Doces",
+    "tempodeprep": "75min",
+    "imagem": "assets/receitas/10.jpg",
+    "descricao": "Batata doce crocante assada com uma mistura de ervas frescas.",
+    "ingredientes": [
+      "4 batatas doces",
+      "2 colheres de sopa de azeite de oliva",
+      "1 colher de chá de alecrim fresco picado",
+      "1 colher de chá de tomilho fresco picado",
+      "Sal a gosto",
+      "Pimenta do reino a gosto"
+    ],
+    "modoDePreparo": [
+      "Pré-aqueça o forno a 200 graus Celsius.",
+      "Lave as batatas doces e corte-as em cubos grandes.",
+      "Em uma tigela grande, misture as batatas doces com o azeite de oliva, o alecrim fresco picado, o tomilho fresco picado, o sal e a pimenta do reino a gosto.",
+      "Espalhe as batatas doces em uma assadeira.",
+      "Asse por 45-60 minutos ou até ficarem macias e levemente douradas.",
+      "Sirva quente."
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Bolinhos de Espinafre e Ricota",
+    "categoria": "Doces",
+    "tempodeprep": "60min",
+    "imagem": "assets/receitas/11.jpg",
+    "descricao": "Pequenos bolinhos assados, recheados com espinafre e ricota.",
+    "ingredientes": [
+      "200g de espinafre",
+      "250g de ricota",
+      "1/2 xícara de queijo parmesão ralado",
+      "2 ovos",
+      "1/2 xícara de farinha de rosca",
+      "1 dente de alho picado",
+      "Sal a gosto",
+      "Pimenta do reino a gosto"
+    ],
+    "modoDePreparo": [
+      "Pré-aqueça o forno a 180 graus Celsius.",
+      "Cozinhe o espinafre em água fervente por 2 minutos ou até murchar.",
+      "Escorra o espinafre e esprema para remover o excesso de água.",
+      "Em uma tigela grande, misture o espinafre cozido, a ricota, o queijo parmesão ralado, os ovos, a farinha de rosca, o alho picado, o sal e a pimenta do reino a gosto.",
+      "Misture bem até obter uma massa homogênea.",
+      "Com as mãos levemente úmidas, modele a massa em bolinhos do tamanho desejado.",
+      "Coloque os bolinhos em uma assadeira untada.",
+      "Asse por 20-25 minutos ou até ficarem dourados e cozidos por dentro.",
+      "Sirva quente."
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Salada de Frutas com Chia",
+    "categoria": "Doces",
+    "tempodeprep": "45min",
+    "imagem": "assets/receitas/12.jpg",
+    "descricao": "Uma salada de frutas frescas com um toque de chia para adicionar crocância e fibras.",
+    "ingredientes": [
+      "1 maçã picada",
+      "1 banana fatiada",
+      "1 xícara de uvas",
+      "1 laranja picada",
+      "1/4 xícara de sementes de chia",
+      "1/4 xícara de suco de laranja",
+      "1 colher de sopa de mel (opcional)"
+    ],
+    "modoDePreparo": [
+      "Em uma tigela grande, misture a maçã picada, a banana fatiada, as uvas e a laranja picada.",
+      "Adicione as sementes de chia, o suco de laranja e o mel (opcional).",
+      "Misture bem e deixe descansar na geladeira por pelo menos 30 minutos antes de servir.",
+      "Sirva a salada de frutas com chia fria."
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Peixe Assado com Limão e Alho",
+    "categoria": "Carnes",
+    "tempodeprep": "15min",
+    "imagem": "assets/receitas/13.jpg",
+    "descricao": "Peixe assado no forno com um delicioso molho de limão e alho.",
+    "ingredientes": [
+      "2 filés de peixe",
+      "2 colheres de sopa de azeite de oliva",
+      "Suco de 1 limão",
+      "2 dentes de alho picados",
+      "Sal a gosto",
+      "Pimenta do reino a gosto",
+      "1 colher de chá de salsa picada"
+    ],
+    "modoDePreparo": [
+      "Pré-aqueça o forno a 200 graus Celsius.",
+      "Em uma tigela, misture o azeite de oliva, o suco de limão, o alho picado, o sal e a pimenta do reino a gosto.",
+      "Adicione os filés de peixe à marinada e deixe descansar por 10 minutos.",
+      "Coloque os filés de peixe em uma assadeira untada.",
+      "Asse por 10-15 minutos ou até ficarem cozidos por dentro.",
+      "Sirva quente, decorado com salsa picada."
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Suco de Beterraba e Cenoura",
+    "categoria": "Bebida",
+    "tempodeprep": "5min",
+    "imagem": "assets/receitas/14.jpg",
+    "descricao": "Um suco revitalizante e cheio de nutrientes com beterraba, cenoura e laranja.",
+    "ingredientes": [
+      "1 beterraba média",
+      "2 cenouras",
+      "1 laranja",
+      "1 pedaço de gengibre (2 cm)",
+      "1/2 xícara de água"
+    ],
+    "modoDePreparo": [
+      "Lave bem a beterraba, as cenouras, a laranja e o gengibre.",
+      "Corte a beterraba, as cenouras e a laranja em pedaços.",
+      "No liquidificador, coloque a beterraba, as cenouras, a laranja, o gengibre e a água.",
+      "Bata tudo até obter um suco homogêneo.",
+      "Coe o suco para remover as fibras, se desejar.",
+      "Sirva o suco gelado."
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Salada de Grão de Bico",
+    "categoria": "Salada",
+    "tempodeprep": "15min",
+    "imagem": "assets/receitas/15.jpg",
+    "descricao": "Uma salada fresca e crocante com grão de bico, pepino, tomate e um molho de iogurte.",
+    "ingredientes": [
+      "1 xícara de grão de bico cozido",
+      "1 pepino picado",
+      "1 tomate picado",
+      "1/4 xícara de cebola roxa picada",
+      "1/4 xícara de iogurte natural",
+      "1 colher de sopa de suco de limão",
+      "Sal a gosto",
+      "Pimenta do reino a gosto",
+      "2 colheres de sopa de salsinha picada"
+    ],
+    "modoDePreparo": [
+      "Em uma tigela grande, misture o grão de bico cozido, o pepino picado, o tomate picado e a cebola roxa picada.",
+      "Para o molho, misture o iogurte natural, o suco de limão, o sal e a pimenta do reino a gosto.",
+      "Despeje o molho sobre a salada e misture bem.",
+      "Adicione a salsinha picada e sirva."
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Tacos de Peixe com Repolho",
+    "categoria": "Massa",
+    "tempodeprep": "25min",
+    "imagem": "assets/receitas/16.jpg",
+    "descricao": "Tacos leves e saborosos com peixe grelhado e repolho crocante.",
+    "ingredientes": [
+      "2 tortillas",
+      "2 filés de peixe",
+      "1 xícara de repolho fatiado",
+      "1/4 xícara de cenoura ralada",
+      "2 colheres de sopa de maionese",
+      "1 colher de sopa de suco de limão",
+      "Sal a gosto",
+      "Pimenta do reino a gosto",
+      "1 colher de chá de coentro picado"
+    ],
+    "modoDePreparo": [
+      "Aqueça as tortillas em uma frigideira seca ou no micro-ondas por alguns segundos.",
+      "Grelhe os filés de peixe em uma frigideira untada com azeite de oliva por 3-4 minutos de cada lado ou até ficarem cozidos por dentro.",
+      "Em uma tigela, misture o repolho fatiado, a cenoura ralada, a maionese, o suco de limão, o sal, a pimenta do reino a gosto e o coentro picado.",
+      "Coloque o peixe grelhado e a salada de repolho nas tortillas.",
+      "Dobre as tortillas e sirva."
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Omelete de Claras com Espinafre",
+    "categoria": "Massa",
+    "tempodeprep": "15min",
+    "imagem": "assets/receitas/17.jpg",
+    "descricao": "Uma opção leve e proteica de café da manhã, feita com claras de ovos e espinafre.",
+    "ingredientes": [
+      "4 claras de ovo",
+      "1 xícara de espinafre",
+      "1/4 xícara de tomate picado",
+      "1 colher de chá de azeite de oliva",
+      "Sal a gosto",
+      "Pimenta do reino a gosto"
+    ],
+    "modoDePreparo": [
+      "Cozinhe o espinafre em água fervente por 2 minutos ou até murchar.",
+      "Escorra o espinafre e esprema para remover o excesso de água.",
+      "Em uma tigela, misture as claras de ovo, o espinafre cozido, o tomate picado, o sal e a pimenta do reino a gosto.",
+      "Aqueça o azeite de oliva em uma frigideira antiaderente em fogo médio.",
+      "Despeje a mistura de claras na frigideira e cozinhe por 3-4 minutos ou até dourar.",
+      "Dobre a omelete ao meio e cozinhe por mais 1 minuto.",
+      "Sirva quente."
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Bolo de Cenoura com Farinha Integral",
+    "categoria": "Doces",
+    "tempodeprep": "150min",
+    "imagem": "assets/receitas/18.jpg",
+    "descricao": "Um bolo saudável e delicioso, feito com cenoura e farinha integral.",
+    "ingredientes": [
+      "3 cenouras médias",
+      "3 ovos",
+      "1/2 xícara de óleo de coco",
+      "1 xícara de açúcar mascavo",
+      "2 xícaras de farinha integral",
+      "1 colher de sopa de fermento em pó",
+      "1 colher de chá de canela em pó",
+      "1 pitada de sal"
+    ],
+    "modoDePreparo": [
+      "Pré-aqueça o forno a 180 graus Celsius.",
+      "Unte e enfarinhe uma forma redonda com furo no centro.",
+      "Rale as cenouras e reserve.",
+      "Em uma tigela grande, bata os ovos com o óleo de coco e o açúcar mascavo até obter um creme homogêneo.",
+      "Adicione a cenoura ralada, a farinha integral, o fermento em pó, a canela em pó e o sal.",
+      "Misture bem até incorporar todos os ingredientes.",
+      "Despeje a massa na forma preparada.",
+      "Asse por 40-50 minutos ou até dourar e estar firme ao toque.",
+      "Faça o teste do palito: se sair limpo, o bolo está pronto.",
+      "Retire o bolo do forno e deixe esfriar na forma antes de desenformar.",
+      "Sirva o bolo de cenoura com cobertura de sua preferência."
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Salmão Grelhado com Molho de Iogurte",
+    "categoria": "Carnes",
+    "tempodeprep": "120min",
+    "imagem": "assets/receitas/19.jpg",
+    "descricao": "Salmão grelhado, servido com um molho refrescante de iogurte e ervas.",
+    "ingredientes": [
+      "2 filés de salmão",
+      "2 colheres de sopa de azeite de oliva",
+      "Sal a gosto",
+      "Pimenta do reino a gosto",
+      "1 xícara de iogurte natural",
+      "1 colher de sopa de suco de limão",
+      "1 colher de chá de endro picado",
+      "1 dente de alho picado"
+    ],
+    "modoDePreparo": [
+      "Tempere os filés de salmão com sal e pimenta do reino a gosto.",
+      "Aqueça uma frigideira grande em fogo médio.",
+      "Adicione 1 colher de sopa de azeite de oliva e grelhe os filés de salmão por 3-4 minutos de cada lado ou até ficarem dourados e cozidos por dentro.",
+      "Retire os filés de salmão da frigideira e reserve.",
+      "Em uma tigela pequena, misture o iogurte natural, o suco de limão, o endro picado e o alho picado.",
+      "Sirva os filés de salmão grelhados com o molho de iogurte.",
+      "Opcional: adicione uma pitada de sal e pimenta do reino ao molho de iogurte a gosto."
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Pão Integral Caseiro",
+    "categoria": "Massa",
+    "tempodeprep": "10min",
+    "imagem": "assets/receitas/20.jpg",
+    "descricao": "Pão integral caseiro, perfeito para acompanhar seu café da manhã ou lanche.",
+    "ingredientes": [
+      "3 xícaras de farinha integral",
+      "1 xícara de água morna",
+      "1 colher de sopa de fermento biológico seco",
+      "1 colher de sopa de mel",
+      "1 colher de chá de sal",
+      "2 colheres de sopa de azeite de oliva"
+    ],
+    "modoDePreparo": [
+      "Em uma tigela grande, misture a água morna, o fermento biológico seco e o mel.",
+      "Deixe descansar por 5 minutos ou até o fermento ativar.",
+      "Adicione a farinha integral, o sal e o azeite de oliva.",
+      "Amasse a massa com as mãos por 5 minutos ou até ficar lisa e elástica.",
+      "Transfira a massa para uma tigela untada com azeite de oliva.",
+      "Cubra a tigela com um filme plástico e deixe descansar em um lugar quente por 1 hora ou até dobrar de volume.",
+      "Pré-aqueça o forno a 180 graus Celsius.",
+      "Amasse a massa novamente e modele em um pão redondo ou em um pão em forma de baguete.",
+      "Coloque o pão em uma assadeira untada com azeite de oliva.",
+      "Asse por 30-40 minutos ou até dourar e estar firme ao toque.",
+      "Retire o pão do forno e deixe esfriar em uma grade antes de cortar."
+    ]
+  },
+  {
+    "id": 21,
+    "nome": "Bruschetta de Tomate e Manjericão",
+    "categoria": "Salada",
+    "tempodeprep": "50min",
+    "imagem": "assets/receitas/21.jpg",
+    "descricao": "Um aperitivo clássico italiano com tomate fresco, manjericão e azeite de oliva.",
+    "ingredientes": [
+      "4 fatias de pão italiano",
+      "2 tomates picados",
+      "1 dente de alho picado",
+      "2 colheres de sopa de azeite de oliva",
+      "1/4 xícara de folhas de manjericão",
+      "Sal a gosto",
+      "Pimenta do reino a gosto"
+    ],
+    "modoDePreparo": [
+      "Pré-aqueça o forno a 200 graus Celsius.",
+      "Corte as fatias de pão italiano ao meio.",
+      "Unte as fatias de pão com azeite de oliva e asse por 5 minutos ou até ficarem levemente crocantes.",
+      "Retire as fatias de pão do forno e esfregue um dente de alho em cada uma delas.",
+      "Em uma tigela, misture os tomates picados, o azeite de oliva, as folhas de manjericão, o sal e a pimenta do reino a gosto.",
+      "Coloque a mistura de tomate sobre as fatias de pão assadas.",
+      "Sirva quente."
+    ]
+  }
+]
