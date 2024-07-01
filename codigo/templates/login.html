@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriLogin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylee.css') }}">
+</head>
+<body>
+    <div class="login">
+        <div class="right">
+            <div class="forms">
+                <h1>Faça login para<br>mudar seus hábitos</h1>
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                  {% if messages %}
+                    <ul>
+                      {% for category, message in messages %}
+                        <li class="{{ category }}">{{ message }}</li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                {% endwith %}
+                <form id="login-form" method="POST" action="{{ url_for('login') }}">
+                    <div class="email">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="senha">
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha" required>
+                    </div>
+                    <div class="botao">
+                        <button type="submit">Login</button>
+                         <p>____Não tem conta? <a href="{{ url_for('cadastro') }}">Cadastre-se aqui___</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="left">
+            <img src="{{ url_for('static', filename='alimentos.svg') }}" alt="Descrição da imagem">
+        </div>
+    </div>
+   
+</body>
+</html>

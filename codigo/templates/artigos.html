@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrosséis de Artigos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    
+    <div id="Cabesario">
+        <nav class="navbar navbar-expand-lg" id="cab2">
+            <button class="open-profile-btn"><img src="{{ url_for('static', filename='assets/images/mmp.png') }}"></button>
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <a class="navbar-brand text-center" href="/"><img src="{{ url_for('static', filename='assets/favicon/logo.png') }}"
+                            alt="logo"></a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <div class="search-bar">
+                                    <form id="searchForm" class="search-form">
+
+                                        <input type="text" id="searchInput"
+                                            placeholder="Clique aqui para pesquisar por receitas...">
+                                        <button type="submit" class="search-button">
+                                            <img src="static/assets/favicon/lupa.png" alt="lupa" class="search-icon">
+                                        </button>
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+            
+<div class="container my-5">
+    <!-- Carrossel 1 -->
+    <div id="carousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://static.itdg.com.br/images/200-160/b2d293e4b1a1303170a5e1fada2178b2/291860-original.jpg" class="card-img-top" alt="10 Receitas Saudáveis para o Café da Manhã">
+                            <div class="card-body">
+                                <h5 class="card-title">10 Receitas Saudáveis para o Café da Manhã</h5>
+                                <p class="card-text">Explore opções nutritivas e deliciosas para começar o dia com energia.</p>
+                                <a href="https://www.tudogostoso.com.br/receitas/92562-10-receitas-saudaveis-para-o-cafe-da-manha.html" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://static.itdg.com.br/images/300-300/1804ba7c9e6a96644ee06f6bba5b93c8/16.jpeg" class="card-img-top" alt="Como Fazer o Bolo Perfeito">
+                            <div class="card-body">
+                                <h5 class="card-title">Como Fazer o Bolo Perfeito</h5>
+                                <p class="card-text">Dicas e truques para assar um bolo delicioso e fofinho.</p>
+                                <a href="https://www.tudogostoso.com.br/receitas/8963-bolo-perfeito.html" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://static.itdg.com.br/images/200-160/40918ce3db85e7889e5d9839b907c81b/351681-original.jpg" class="card-img-top" alt="Receitas Vegetarianas para o Almoço">
+                            <div class="card-body">
+                                <h5 class="card-title">Receitas Vegetarianas para o Almoço</h5>
+                                <p class="card-text">Ideias saborosas e saudáveis para um almoço vegetariano.</p>
+                                <a href="https://www.tudogostoso.com.br/receitas/7929-receitas-vegetarianas.html" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://static.itdg.com.br/images/200-160/d71740fc4e8d8732a57fd96bf156dfe6/101097-original.jpg" class="card-img-top" alt="5 Sobremesas Fáceis e Rápidas">
+                            <div class="card-body">
+                                <h5 class="card-title">5 Sobremesas Fáceis e Rápidas</h5>
+                                <p class="card-text">Prepare deliciosas sobremesas em pouco tempo com essas receitas fáceis.</p>
+                                <a href="https://www.tudogostoso.com.br/receitas/6160-5-sobremesas-faceis-e-rapidas.html" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://static.tuasaude.com/media/article/vf/mk/dieta-mediterranea_18001_l.webp" class="card-img-top" alt="Benefícios da Dieta Mediterrânea">
+                            <div class="card-body">
+                                <h5 class="card-title">Benefícios da Dieta Mediterrânea</h5>
+                                <p class="card-text">Descubra os benefícios de seguir a dieta mediterrânea para a saúde.</p>
+                                <a href="https://www.tuasaude.com/dieta-mediterranea/" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://static.itdg.com.br/images/200-160/2349a3d015816d69cea2800988f265c1/shutterstock-1982041268.jpg" class="card-img-top" alt="Como Fazer Pão Caseiro">
+                            <div class="card-body">
+                                <h5 class="card-title">Como Fazer Pão Caseiro</h5>
+                                <p class="card-text">Aprenda a fazer pão caseiro com esta receita simples e fácil de seguir.</p>
+                                <a href="https://www.receitas.com/receita/pao-caseiro.html" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <!-- Carrossel 2 -->
+    <div id="carousel2" class="carousel slide my-5" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://static.itdg.com.br/images/200-160/b5a09be364061bfc81d9d4686cb14cb8/95722-original.jpg" class="card-img-top" alt="Dicas para uma Alimentação Balanceada">
+                            <div class="card-body">
+                                <h5 class="card-title">Dicas para uma Alimentação Balanceada</h5>
+                                <p class="card-text">Saiba como equilibrar sua alimentação e manter uma dieta saudável.</p>
+                                <a href="https://www.tuasaude.com/alimentacao-balanceada/" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://static.itdg.com.br/images/200-160/d8fa256da2431f35d207c3489e11973c/346244-original.jpg" class="card-img-top" alt="Receitas de Saladas Refrescantes">
+                            <div class="card-body">
+                                <h5 class="card-title">Receitas de Saladas Refrescantes</h5>
+                                <p class="card-text">Experimente essas saladas refrescantes perfeitas para o verão.</p>
+                                <a href="https://www.receitas.com/receita/saladas-refrescantes.html" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://static.itdg.com.br/images/200-160/9118fd749fe6f30ef8551f7d3ad4b1c4/268143-original.jpg" class="card-img-top" alt="Como Fazer Smoothies Saudáveis">
+                            <div class="card-body">
+                                <h5 class="card-title">Como Fazer Smoothies Saudáveis</h5>
+                                <p class="card-text">Deliciosas receitas de smoothies para uma refeição rápida e saudável.</p>
+                                <a href="https://www.receitas.com/receita/smoothies-saudaveis.html" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://static.itdg.com.br/images/200-160/23ac4d351de09e1d89fa9ba1e41ba155/254798-original.jpg" class="card-img-top" alt="Os Melhores Lanches Pós-Treino">
+                            <div class="card-body">
+                                <h5 class="card-title">Os Melhores Lanches Pós-Treino</h5>
+                                <p class="card-text">Opções de lanches nutritivos para consumir após o treino.</p>
+                                <a href="https://www.tuasaude.com/lanche-pos-treino/" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://static.itdg.com.br/images/200-160/d109221d572573a1e12fc448468e0040/354400-original.jpg" class="card-img-top" alt="Receitas de Sopas e Caldos">
+                            <div class="card-body">
+                                <h5 class="card-title">Receitas de Sopas e Caldos</h5>
+                                <p class="card-text">Aqueça seu inverno com essas deliciosas receitas de sopas e caldos.</p>
+                                <a href="https://www.receitas.com/receita/sopas-e-caldos.html" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://static.itdg.com.br/images/200-160/c2964a288158639c6bffee0e063c01d7/269101-original.jpg" class="card-img-top" alt="Dicas de Preparação de Refeições">
+                            <div class="card-body">
+                                <h5 class="card-title">Dicas de Preparação de Refeições</h5>
+                                <p class="card-text">Planeje e prepare suas refeições da semana com essas dicas.</p>
+                                <a href="https://www.tuasaude.com/preparacao-de-refeicoes/" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    </div>
+</div>
+    <div id="profileModal" class="profile-modal">
+        <div class="profile-modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="main">
+                <section class="profile">
+                    <img id="fotop" src="{{ url_for('static', filename='assets/images/Logo.png') }}" alt="logo">
+
+
+                    <div class="container mt-4">
+                        {% if session.logged_in %}
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Informações do Usuário</h4>
+                                    <p class="card-text">Nome: {{ session.nome }}</p>
+                                    <p class="card-text">Idade: {{ session.idade }}</p>
+                                    <p class="card-text">Email: {{ session.email }}</p>
+
+                                    <p class="card-text">IMC: {{ session.imc }}</p>
+                                </div>
+                            </div>
+                        {% else %}
+                            <div class="alert alert-warning" role="alert">
+                                Faça login para ver suas informações.
+                            </div>
+                        {% endif %}
+                    </div>
+                    <div>
+                        <a href="calculadora">
+                                <div class="opc">
+                                    <img class="ico" src="{{ url_for('static', filename='assets/calculadore.png') }}" alt="Ícone da calculadora">
+                                </div>
+    <span class="opctxt">calc.imc</span></div>
+                        </a>
+                        <a href="favoritos">
+                            <div class="opc"><img class="ico" src="static/assets/star.png" alt="arigos"><span
+                                    class="opctxt">Favoritos</span></div>
+                        </a>
+                        <a href="artigos">
+                                <div class="opc">
+                                    <img class="ico" src="{{ url_for('static', filename='assets/folde.png') }}" alt="Ícone de pasta">
+                                </div>
+    <span class="opctxt">Artigos</span></div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+<script src="static/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

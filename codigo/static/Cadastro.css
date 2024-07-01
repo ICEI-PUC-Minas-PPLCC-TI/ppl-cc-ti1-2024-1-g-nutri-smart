@@ -1,0 +1,96 @@
+/* Reset básico */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5ac757;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Estilos para o layout principal */
+.login {
+  width: 100%;
+  max-width: 1000px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.left {
+  width: 40%;
+  height: 100%;
+  background-color: #00b336;
+}
+
+.right {
+  width: 60%;
+  height: 90%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.right h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.right img {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.forms {
+  width: 100%;
+  max-width: 400px;
+}
+
+.forms label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.forms input,
+.forms button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+}
+
+.forms input:focus {
+  border-bottom-color: #4CAF50;
+}
+
+.forms button {
+  background-color: #0cad00;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 15px; /* Ajustado para espaçamento menor */
+}
+
+.botao {
+  text-align: center; /* Centraliza o botão */
+}
+
+.login-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
