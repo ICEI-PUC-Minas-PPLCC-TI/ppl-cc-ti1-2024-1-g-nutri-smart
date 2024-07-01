@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NutriSmart - Sobre Nós</title>
+        <link rel="stylesheet" href="static/style.css" />
+        <link rel="stylesheet" href="static/assets/styles/sobre.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="assets/favicon/site.webmanifest" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="static/script.js"></script>
+        <script src="static/sobre.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="Cabesario">
+                <nav class="navbar navbar-expand-lg" id="cab2">
+                    <button class="open-profile-btn"><img src="{{ url_for('static', filename='assets/images/mmp.png') }}"></button>
+                    <div class="container-fluid">
+                        <nav class="navbar">
+                            <a class="navbar-brand text-center" href="/"><img src="{{ url_for('static', filename='assets/favicon/logo.png') }}"
+                                    alt="logo"></a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <div class="search-bar">
+                                            <form id="searchForm" class="search-form">
+
+                                                <input type="text" id="searchInput"
+                                                    placeholder="Clique aqui para pesquisar por receitas...">
+                                                <button type="submit" class="search-button">
+                                                    <img src="{{ url_for('static', filename='assets/favicon/lupa.png') }}" alt="lupa" class="search-icon">
+                                                </button>
+                                            </form>
+
+
+                                        </div>
+                                    </li>
+
+                                    <a href="login">
+                                        <div class="icon">
+                                            <img src="{{ url_for('static', filename='assets/favicon/icone2.png') }}" alt="usuario">
+                                        </div>
+                                    </a>
+
+                            </div>
+                            </a>
+
+                            <a href="login">
+                                <a href="cadastro">
+                                    <div class="icon2">
+                                        <img src="{{ url_for('static', filename='assets/favicon/exit.png') }}" alt="usuario">
+                                    </div>
+                                </a>
+                            </a>
+                            </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div id="profileModal" class="profile-modal">
+                <div class="profile-modal-content">
+                    <span class="close-btn">&times;</span>
+                    <div id="main">
+                        <section class="profile">
+                            <img
+                                id="fotop"
+                                src="{{ url_for('static', filename='/assets/images/Logo.png') }}"
+                                alt="Minha foto de perfil"
+                            />
+                            <h2>Nome</h2>
+                            <p id="gmail">Exemplo@gmail.com</p>
+                            <span>Idade: 20 | IMC: 13.5</span>
+                            <div>
+                                <a href="calculadora">
+                                    <div class="opc">
+                                        <img
+                                            class="ico"
+                                            src="{{ url_for('static', filename='/assets/calculadore.png') }}"
+                                            alt=""
+                                        /><span class="opctxt">calc.imc</span>
+                                    </div>
+                                </a>
+                                <a href="favoritos">
+                                    <div class="opc">
+                                        <img
+                                            class="ico"
+                                            src="{{ url_for('static', filename='/assets/star.png') }}"
+                                            alt=""
+                                        /><span class="opctxt">Favoritos</span>
+                                    </div>
+                                </a>
+                                <a href="/">
+                                    <div class="opc">
+                                        <img
+                                            class="ico"
+                                            src="{{ url_for('static', filename='/assets/folde.png') }}"
+                                            alt=""
+                                        /><span class="opctxt">Artigos</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div id="title">
+                <h1>Sobre-nós</h1>
+                <section id="line"></section>
+            </div>
+
+            <section class="section-box">
+                <img
+                    src="{{ url_for('static', filename='/assets/images/Image-1.png') }}"
+                />
+                <div class="text-box">
+                    <h2>Nossa missão</h2>
+                    <p>
+                        Nossa missão é promover hábitos alimentares saudáveis e
+                        conscientes, oferecendo receitas práticas e nutritivas
+                        para pessoas de todas as idades. Acreditamos que uma
+                        alimentação equilibrada é fundamental para uma vida
+                        saudável e feliz.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section-box">
+                <div class="text-box">
+                    <h2>Quem somos nós?</h2>
+                    <p>
+                        Somos um grupo de estudantes do curso de Ciência da
+                        Computação da PUC Minas, campus Praça da Liberdade. Este
+                        projeto nasceu da dificuldade de acesso a informações
+                        sobre culinária saudável e do nosso desejo de
+                        compartilhar conhecimento e inspiração com o mundo. Cada
+                        receita foi cuidadosamente desenvolvida e testada por
+                        nossa equipe para garantir sabor e nutrição.
+                    </p>
+                </div>
+                <img
+                    src="{{ url_for('static', filename='/assets/images/Image-2.png') }}"
+                />
+            </section>
+
+            <section class="section-box">
+                <div class="text-box">
+                    <h2>Equipe de Desenvolvimento</h2>
+                    <div id="div-amigos"></div>
+                </div>
+            </section>
+
+            <footer>
+                <p>©nutrismart</p>
+                <div>
+                    <a href="sobre">Sobre-nós</a>
+                    <a href="contato">Contate-nos</a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

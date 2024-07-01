@@ -1,0 +1,44 @@
+[
+    {
+        "nome": "mateus",
+        "idade": "22",
+        "email": "mtsgosouza@gmail.com",
+        "senha": "2202"
+    },
+    {
+        "nome": "mateus",
+        "idade": "13",
+        "email": "asrweq@gmail",
+        "senha": "2313"
+    },
+    {
+        "nome": "Alberto Carlos",
+        "idade": "10",
+        "email": "albertocarlos@gmail.com",
+        "senha": "1111"
+    },
+    {
+        "nome": "Carlos alberto",
+        "idade": "32",
+        "email": "tomasturbano@fmail.com",
+        "senha": "0711"
+    },
+    {
+        "nome": "Mateus",
+        "idade": "16",
+        "email": "caiocesarsouzaamaral25061989@gmail.com",
+        "senha": "2302"
+    },
+    {
+        "nome": "Mateus",
+        "idade": "20",
+        "email": "isadoracgocalves@hotmail.com",
+        "senha": "2302"
+    },
+    {
+        "nome": "leonardo",
+        "idade": "70",
+        "email": "norman@gmail.com",
+        "senha": "123"
+    }
+]
